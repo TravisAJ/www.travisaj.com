@@ -1,0 +1,28 @@
+article, aside, footer, header, nav, section { 
+   display: block;
+}
+
+address, article, aside, blockquote, body, div, dl, dt, dd, em, footer, h1, h2, header, html, img, li, main, nav, p, section, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+body {
+   line-height: 1;
+}
