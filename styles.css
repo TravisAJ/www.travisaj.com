@@ -1,11 +1,21 @@
 /* General Webpage Styles */
 
+html {
+    background-image: url("background.png");
+}
+
+img#right {
+    float: right;
+    width: 8%;
+}
+
 /* Title Styles */
 
 h1.title {
-    font-size: 550%;
+    background-color: rgba(255, 255, 255, 0.6);
     padding-top: 2%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
+    font-size: 550%;
     text-align: center;
     font-variant: small-caps;
     font-family: serif;
@@ -14,14 +24,25 @@ h1.title {
 /* Navigation Styles */
 
 nav li {
-    width: 15%;
+    font-size: 125%;
+    width: 16.66%;
     float: left;
     text-align: center;
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 3px solid black;
 }
 
 nav li a {
     display: block;
+    color: black;
+}
+
+nav li:hover {
+    border-bottom: 3px solid black;
+}
+
+nav li a {
+    
 }
 /* Other Devices Styles */
